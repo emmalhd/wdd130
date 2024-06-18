@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root{
+--primary-color: lightblue;
+--secondary-color: darkgreen;
+--accent1-color: rgb(46, 46, 181);
+--accent2-color: forestgreen;
+
+--heading-font: 'Merienda', serif;
+--paragraph-font: 'Avantgarde', serif;
+
+--nav-background-color: rgb(75, 41, 7);
+--nav-link-color: red;
+--nav-hover-link-color: darkred;
+--nav-hover-background-color: black;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1rem;
+    display: flex;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
