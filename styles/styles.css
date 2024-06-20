@@ -1,3 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    font-family: Georgia;
+}
+h1{
+    font-family: 'Arial Black';
+}
 main{
     max-width: 840px;
 }
@@ -6,10 +20,11 @@ aside{
     width: 20rem;
     margin: 1rem;
     border: 2px solid darkgoldenrod;
-    padding: 1rem;
+    padding: 2rem;
     background-color: white;
     color: black;
     text-align: center;
+    position: relative;
 
 }
 
@@ -38,6 +53,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 p{
     padding: 0;
@@ -48,3 +64,23 @@ footer{
     border-top: 1px dotted black;
     text-align: center;
 }
+
+/* Class Selectiors */
+
+.box{
+    margin: 1rem;
+    border: 1px white;
+    padding: 2rem;
+    background-color: pink;
+    color: black
+}
+
+aside h2{
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    
+}
+
+
+
