@@ -7,10 +7,10 @@ body{
 }
 
 :root{
---primary-color: lightblue;
---secondary-color: darkgreen;
---accent1-color: rgb(46, 46, 181);
---accent2-color: forestgreen;
+--primary-color: #0094C6;
+--secondary-color: #005E7C;
+--accent1-color: #001242;
+--accent2-color: #000022;
 
 --heading-font: 'Merienda', serif;
 --paragraph-font: 'Avantgarde', serif;
