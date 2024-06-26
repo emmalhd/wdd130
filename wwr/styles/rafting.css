@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+
+
+:root{
+    --primary-color: #0094C6;
+    --secondary-color: #005E7C;
+    --accent1-color: #001242;
+    --accent2-color: #000022;
+    
+    --heading-font: 'Merienda', serif;
+    --paragraph-font: 'Avantgarde', serif;
+    
+    --nav-background-color: #0094C6;
+    --nav-link-color: #005E7C;
+    --nav-hover-link-color: #001242;
+    --nav-hover-background-color: #000022;
+    }
+
+
+
+header {
+    max-width: 100%;
+    max-height: 20%;
+    
+
+}
+
+
+
+body {
+    font-family: "Merienda", serif;
+    background-color: var(--background-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header div {
+    position: relative;
+    height: 190px;
+    width: 100%;
+   
+    background-color: #005E7C;
+
+}
+
+.nav-container {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    padding: 10px;
+}
+
+
+.nav-button {
+    appearance: none;
+    background-color: lightblue;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    color: #24292e;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 14px;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    text-decoration: none;
+    margin-left: 10px;
+    
+
+}
+
+.logo {
+    max-width: 25%;
+}
+
+.nav-button:hover {
+    background-color: white;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.hero-header {
+    position: absolute;
+    top: 10%;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+.article-text {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    text-align: left;
+    width: 100%;
+    font-weight: 500px;
+}
+
+.client-image {
+    float: right;
+    max-width: 25%;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    text-align: left;
+    width: 100%;
+}
+
+section h2 {
+    margin-top: 40%;
+}
+
+/*A tutor helped me learn about this while i was struggling with my formatting*/
+@media screen and (min-width: 1200px){
+    section h2 {
+        margin-top: 50%;
+    }
+}
+
+.tt-logo {
+    max-width: 5%;
+}
+
+.fb-logo {
+    max-width: 5%;
+}
+
+.instagram-logo{
+    max-width: 5%;
+}
+
+.sociallinks{
+    text-decoration: none;
+}
