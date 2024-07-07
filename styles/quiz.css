@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 1rem;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Nunito;
+    font-size: 1.2rem;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: blanchedalmond;
+    padding: .5rem;
+    display: grid;
+} 
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    padding: .5rem;
+    margin: 1rem;
+}
+
+label {
+    text-align: left;
+}
+
+input, select, textarea, number {
+    padding: .35rem;
+    font-size: 1rem;
+}
+
+button {
+    margin: .5rem;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    background-color: rgb(243, 164, 164);
+}

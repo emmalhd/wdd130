@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <label for="q1">What does HTML stand for?</label>
+                <input type="text" id="q1" name="q1">
+                <label for="q2">How do you link a CSS file on an HTML page?</label>
+                <textarea id="q2" name="q2" rows="3" placeholder="Type your answer here"></textarea>
+                <label for="q3">What is the purpose of the "meta" tag in HTML></label>
+                <select id="q3" name="q3">
+                    <option value="linking">To link a CSS file</option>
+                    <option value="metadata">To provide additional information about the page</option>
+                    <option value="image">To link an image</option>
+                </select>
+                <label for="q4">How many columns are in this declaration (grid-template-columns: 3fr 1fr;)</label>
+                <input type="number" id="q4" name="q4" min="1" max="2">
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+</html>
