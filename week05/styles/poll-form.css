@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito;
+    font-size: 1.1rem;
+    background-color: white;
+    color: black;
+}
+
+header {
+    width: auto;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1.2rem;
+    border: 1.2px solid black;
+    border-radius: 1rem;
+    background-color: rgb(205, 229, 237);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .75rem;
+    padding: 1rem;
+    margin: .25rem;
+}
+
+legend {
+    padding: .5rem;
+    font-size: 1.3rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+input, select, textarea {
+    padding: .35rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"]{
+    width: 25px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: .5rem;
+    background-color: rgb(99, 168, 246);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+
+button:hover {
+    background-color: rgb(243, 164, 164);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem ;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
