@@ -15,10 +15,10 @@ body{
 --heading-font: 'Merienda', serif;
 --paragraph-font: 'Avantgarde', serif;
 
---nav-background-color: rgb(75, 41, 7);
---nav-link-color: red;
---nav-hover-link-color: darkred;
---nav-hover-background-color: black;
+--nav-background-color: #0094C6;
+--nav-link-color: #005E7C;
+--nav-hover-link-color: #001242;
+--nav-hover-background-color: #000022;
 }
 
 
