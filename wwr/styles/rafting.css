@@ -148,7 +148,7 @@ section h2 {
     text-align: center; 
 }
 
-.adventure .images {
+.adventure .images, .photos {
     display: flex;
     flex-direction: row;
     justify-content: space-around; 
@@ -198,6 +198,102 @@ section h2 {
     max-width: 20%;
 }
 
+.wireframe {
+    max-width: 20%;
+}
+
 .sociallinks{
     text-decoration: none;
+}
+
+
+
+/* Contact Us CSS*/
+
+
+.info {
+    background-color: rgb(189, 225, 237);
+    border-radius: 1rem;
+}
+.info h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.info p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+}
+
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.photos figure {
+    text-align: center;
+    margin: 0;
+}
+
+.photos img {
+    width: 70%;
+    height: 70%;
+
+
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .75rem;
+    padding: 1rem;
+    margin: .25rem;
+    background-color: rgb(189, 225, 237);
+    border-radius: 1rem;
+    border: none;
+   
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+label {
+    font-size: 1.25rem;
+}
+
+.checkbox {
+    text-align: center;
+}
+input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+   
+}
+
+button {
+    margin: .5rem;
+    background-color: rgb(40, 112, 53);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+
+button:hover {
+    background-color: rgb(82, 171, 106);
+}
+
+iframe {
+    width: 150px;
+    height: 150px;
+   
 }
